@@ -1,9 +1,13 @@
+import { Link, useNavigate } from 'react-router-dom'
 import React from 'react'
 
 
 function Navbar() {
- 
-  
+  let navigate = useNavigate()
+
+
+  let navbarComponent
+
 
   return (
     <>
