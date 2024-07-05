@@ -30,7 +30,7 @@ function DeletarCategoria() {
 
     async function deletarCategoria() {
         try {
-            await deletar(`/Categorias/${id}`)
+            await deletar(`/categorias/${id}`)
 
             alert('Excluída com sucesso.')
 
